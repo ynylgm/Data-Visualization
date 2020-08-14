@@ -117,7 +117,6 @@ sns.lineplot(x='rating',y='percentage',data=Metacritic_user_norm_round,ax=ax, co
 sns.lineplot(x='rating',y='percentage',data=RT_norm_round,ax=ax, color='#808080')
 sns.lineplot(x='rating',y='percentage',data=RT_user_norm_round,ax=ax, color='#BA55D3')
 sns.lineplot(x='rating',y='percentage',data=fandango,ax=ax, color='#f4320c')
-sns.set_style("whitegrid")
 ax.set(xlim=(-.15, None))
 sns.despine(bottom=True,left=True)
 ax.set(xlabel='', ylabel='')
