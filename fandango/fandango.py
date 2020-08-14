@@ -3,6 +3,11 @@ import seaborn as sns; sns.set()
 import matplotlib
 import matplotlib.pyplot as plt
 
+"""
+uses columns of normalized rating values rounded to the nearest half star in the dataset
+columns that end with _norm_round are such columns
+"""
+
 df = pd.read_csv('https://raw.githubusercontent.com/fivethirtyeight/data/master/fandango/fandango_score_comparison.csv')
 
 df = df[['FILM','RT_norm_round', 'RT_user_norm_round',
