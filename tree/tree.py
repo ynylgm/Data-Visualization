@@ -33,4 +33,4 @@ fig = plt.figure(
     font_size=20
 )
 
-plt.savefig('tree-pictogram.png')
+plt.savefig('tree-pictogram-chart.png')
