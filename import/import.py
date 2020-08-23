@@ -28,7 +28,7 @@ plt.figure(figsize=(16,9))
 plt.plot('Year','Grand Total', data=df, marker='o')
 plt.plot(2009.1, 82000, 'ro', markersize=115, fillstyle='none', markeredgewidth=2.8)
 plt.xticks(np.arange(1999, 2018, 3), fontsize=13.3, y=-.01)
-plt.yticks(fontsize=13) # commas or change labels
+plt.yticks(fontsize=13)
 sns.despine()
 plt.yticks(ticks=np.arange(40000, 160000, 20000), labels=['40,000','60,000','80,000','100,000','120,000','140,000'])
 plt.text(1997.95, 147600, 'Million $', fontsize=12)
@@ -45,7 +45,7 @@ plt.figure(figsize=(16,9))
 for col in df.columns[1:8]:
     plt.plot('Year',col, data=df)
 plt.xticks(np.arange(1999, 2018, 2), fontsize=13, y=-.01)
-plt.yticks(fontsize=13) # commas or change labels
+plt.yticks(fontsize=13)
 plt.axvspan(2008.4, 2009.6, color='grey', alpha=0.1)
 sns.despine()
 plt.title(label='U.S. Food Imports from Top 7 Countries from 1999 to 2017', loc='left', fontsize=17.5, y=1.048, x=-.008)
