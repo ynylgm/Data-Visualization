@@ -1,4 +1,4 @@
-# U.S. Food Import
+# U.S. Food Imports
 
 Two visualizations of U.S. food imports from 1999 to 2017 using the Python libraries _matplotlib_ and _seaborn_.
 <br><br><br>
